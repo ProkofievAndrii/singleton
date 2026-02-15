@@ -4,13 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="initial">
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added">
+      <change afterPath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced/ContextType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced/TenantContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced/TenantKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advanced/TenantMultiton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/BillPughSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceEagerInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceLazyInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/SecurityEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/best/SmartSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/naive/LazySingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problem/DatabaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/security/SingletonBreaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/ThreadSafeSingleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +51,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SingletonBreaker.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -52,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="2433000" />
+      <workItem from="1771085626908" duration="6785000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -62,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771088202590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added">
+      <option name="closed" value="true" />
+      <created>1771133039433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771133039433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="added" />
+    <option name="LAST_COMMIT_MESSAGE" value="added" />
   </component>
 </project>
