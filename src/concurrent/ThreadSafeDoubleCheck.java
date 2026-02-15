@@ -3,6 +3,7 @@ package concurrent;
 public class ThreadSafeDoubleCheck {
     private static volatile ThreadSafeDoubleCheck instance;
 
+    //Додано в рамках демонстрації багатопоточності
     private ThreadSafeDoubleCheck() {
         try { Thread.sleep(100); } catch (InterruptedException e) { e.printStackTrace(); }
     }

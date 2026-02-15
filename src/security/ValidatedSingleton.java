@@ -9,7 +9,11 @@ public class ValidatedSingleton implements Serializable {
     private static class Loader {
         private static final ValidatedSingleton INSTANCE = new ValidatedSingleton();
     }
-    private ValidatedSingleton() {}
+    private ValidatedSingleton() {
+        if (Loader.INSTANCE != null) {
+            throw new RuntimeException("Вже існує");
+        }
+    }
     public static ValidatedSingleton getInstance() {
         return Loader.INSTANCE;
     }

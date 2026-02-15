@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="refactored">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrent/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/DatabaseConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceStaticBlock.java" afterDir="false" />
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added demos">
+      <change afterPath="$PROJECT_DIR$/src/security/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/security/SecurityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/security/SecurityEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "Application.Main.executor": "Run",
     "Application.SingletonBreaker.executor": "Run",
     "Application.concurrent.Demo.executor": "Run",
+    "Application.security.Demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.concurrent.Demo">
+  <component name="RunManager" selected="Application.security.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="initialization.Demo" />
       <module name="singleton" />
@@ -90,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="security.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="security.Demo" />
+      <module name="singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.security.Demo" />
         <item itemvalue="Application.concurrent.Demo" />
         <item itemvalue="Application.InitDemo" />
       </list>
@@ -105,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="7898000" />
+      <workItem from="1771085626908" duration="8635000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -131,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771137839538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added demos">
+      <option name="closed" value="true" />
+      <created>1771138947052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771138947052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +163,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="added" />
     <MESSAGE value="refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
+    <MESSAGE value="added demos" />
+    <option name="LAST_COMMIT_MESSAGE" value="added demos" />
   </component>
 </project>
