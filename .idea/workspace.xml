@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added">
-      <change afterPath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced/ContextType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced/TenantContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced/TenantKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/advanced/TenantMultiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/BillPughSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceEagerInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceLazyInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/security/SecurityEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" afterDir="false" />
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="refactored">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrent/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/DatabaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/initialization/ServiceStaticBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/best/SmartSingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/naive/LazySingleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problem/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/security/SingletonBreaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threads/ThreadSafeSingleton.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +38,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InitDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonBreaker.executor": "Run",
+    "Application.concurrent.Demo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
@@ -68,8 +58,44 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/initialization" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.concurrent.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="initialization.Demo" />
+      <module name="singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="initialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="concurrent.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrent.Demo" />
+      <module name="singleton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.concurrent.Demo" />
+        <item itemvalue="Application.InitDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="6785000" />
+      <workItem from="1771085626908" duration="7898000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -97,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771133039433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored">
+      <option name="closed" value="true" />
+      <created>1771137839538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771137839538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added" />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
   </component>
 </project>
