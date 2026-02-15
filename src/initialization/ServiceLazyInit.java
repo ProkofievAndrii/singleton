@@ -10,6 +10,6 @@ public class ServiceLazyInit {
         return instance;
     }
     public void performAction() {
-        System.out.println("Lazy initialization service: Action executed.");
+        System.out.println("Lazy initialization service: done.");
     }
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added demos">
-      <change afterPath="$PROJECT_DIR$/src/security/Demo.java" afterDir="false" />
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added security demo">
+      <change afterPath="$PROJECT_DIR$/src/advanced/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/security/SecurityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/security/SecurityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/security/ValidatedSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advanced/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Demo.executor": "Run",
     "Application.InitDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonBreaker.executor": "Run",
@@ -63,13 +64,13 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.security.Demo">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="initialization.Demo" />
+      <option name="MAIN_CLASS_NAME" value="advanced.Demo" />
       <module name="singleton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="initialization.*" />
+          <option name="PATTERN" value="advanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.security.Demo" />
         <item itemvalue="Application.concurrent.Demo" />
-        <item itemvalue="Application.InitDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="8635000" />
+      <workItem from="1771085626908" duration="9851000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -153,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771138947052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added security demo">
+      <option name="closed" value="true" />
+      <created>1771139616557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771139616557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +173,7 @@
     <MESSAGE value="added" />
     <MESSAGE value="refactored" />
     <MESSAGE value="added demos" />
-    <option name="LAST_COMMIT_MESSAGE" value="added demos" />
+    <MESSAGE value="added security demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added security demo" />
   </component>
 </project>

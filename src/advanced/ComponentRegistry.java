@@ -11,7 +11,7 @@ public class ComponentRegistry {
             try {
                 components.put(cls.getName(), cls.getDeclaredConstructor().newInstance());
             } catch (Exception e) {
-                throw new RuntimeException("Ошибка регистрации компонента");
+                throw new RuntimeException("Registration error");
             }
         }
         return cls.cast(components.get(cls.getName()));
