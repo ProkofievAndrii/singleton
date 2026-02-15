@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added security demo">
-      <change afterPath="$PROJECT_DIR$/src/advanced/Demo.java" afterDir="false" />
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added advanced demo">
+      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/Demo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/advanced/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +62,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="advanced.Demo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="advanced.Demo" />
       <module name="singleton" />
       <extension name="coverage">
@@ -104,9 +102,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.concurrent.Demo" />
+      <item itemvalue="Application.advanced.Demo" />
+      <item itemvalue="Application.security.Demo" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.advanced.Demo" />
         <item itemvalue="Application.security.Demo" />
         <item itemvalue="Application.concurrent.Demo" />
       </list>
@@ -120,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="9851000" />
+      <workItem from="1771085626908" duration="10686000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -162,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771139616557</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added advanced demo">
+      <option name="closed" value="true" />
+      <created>1771140960897</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771140960897</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +185,7 @@
     <MESSAGE value="refactored" />
     <MESSAGE value="added demos" />
     <MESSAGE value="added security demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added security demo" />
+    <MESSAGE value="added advanced demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added advanced demo" />
   </component>
 </project>
