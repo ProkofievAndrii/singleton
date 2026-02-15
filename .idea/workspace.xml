@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added advanced demo">
-      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/Demo.java" afterDir="false" />
+    <list default="true" id="a8aa5329-5c15-48b2-af57-fc4f02110ea8" name="Changes" comment="added architecture demo">
+      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGatewayDI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGatewaySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced/ComponentRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advanced/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/advanced/TenantMultiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/advanced/TenantMultiton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrent/ThreadSafeDoubleCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/security/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/security/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singletonVsDI/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletonVsDI/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singletonVsDI/SystemGateway.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +46,11 @@
     "Application.InitDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SingletonBreaker.executor": "Run",
+    "Application.advanced.Demo.executor": "Run",
     "Application.concurrent.Demo.executor": "Run",
+    "Application.init.Demo.executor": "Run",
     "Application.security.Demo.executor": "Run",
+    "Application.singletonVsDI.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -62,7 +72,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.security.Demo">
     <configuration name="advanced.Demo" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="advanced.Demo" />
       <module name="singleton" />
@@ -89,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="init.Demo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="initialization.Demo" />
+      <module name="singleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="security.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="security.Demo" />
       <module name="singleton" />
@@ -102,16 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="singletonVsDI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="singletonVsDI.Demo" />
+      <module name="singleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.init.Demo" />
+      <item itemvalue="Application.singletonVsDI" />
       <item itemvalue="Application.concurrent.Demo" />
       <item itemvalue="Application.advanced.Demo" />
       <item itemvalue="Application.security.Demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.advanced.Demo" />
         <item itemvalue="Application.security.Demo" />
         <item itemvalue="Application.concurrent.Demo" />
+        <item itemvalue="Application.advanced.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771085625732</updated>
-      <workItem from="1771085626908" duration="10686000" />
+      <workItem from="1771085626908" duration="21502000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <option name="closed" value="true" />
@@ -173,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771140960897</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added architecture demo">
+      <option name="closed" value="true" />
+      <created>1771141856583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771141856583</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +220,7 @@
     <MESSAGE value="added demos" />
     <MESSAGE value="added security demo" />
     <MESSAGE value="added advanced demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added advanced demo" />
+    <MESSAGE value="added architecture demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added architecture demo" />
   </component>
 </project>

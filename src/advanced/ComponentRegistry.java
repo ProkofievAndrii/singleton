@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class ComponentRegistry {
     private static final Map<String, Object> components = new HashMap<>();
-
     public static synchronized <T> T getComponent(Class<T> cls) {
         if (!components.containsKey(cls.getName())) {
             try {

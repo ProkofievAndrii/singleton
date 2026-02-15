@@ -37,6 +37,6 @@ public class Demo {
         // 3. Повністю захищений Enum
         System.out.println("\n--- SecurityEnum:");
         SecurityEnum.INSTANCE.processData();
-        System.out.println("JVM на рівні мови забороняє створення нових екземплярів Enum через рефлексию.");
+        System.out.println("В моєму випадку JVM на рівні мови забороняє створення нових екземплярів Enum через рефлексию.");
     }
 }
